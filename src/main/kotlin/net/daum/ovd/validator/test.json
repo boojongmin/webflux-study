@@ -1,0 +1,31 @@
+{
+  "key": "root",
+  "value": {
+    "type": "object",
+    "child": [
+      {
+        "key": "top",
+        "value": {
+          "type": "object",
+          "child": [
+            { "key": "title", "value": { "type": "string" } },
+            { "key": "url", "value": { "type": "string", "format": "url"} },
+            { "key": "tiara", "value": { "type": "string"} }
+          ]
+        }
+      },
+      {
+        "key": "body",
+        "value": {
+          "type": "array",
+          "child": [
+            { "key": "title", "value": { "type": "string" } },
+            { "key": "imageUrl", "value": { "type": "string", "format": "url" } },
+            { "key": "url", "value": { "type": "string", "format": "url"} },
+            { "key": "tiara", "value": { "type": "string"} }
+          ]
+        }
+      }
+    ]
+  }
+}
